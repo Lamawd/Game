@@ -79,7 +79,7 @@ StyleCopReport.xml
 *_p.c
 *_h.h
 *.ilk
-*.meta
+# *.meta is intentionally NOT ignored — Unity requires .meta files in version control
 *.obj
 *.iobj
 *.pch
@@ -480,3 +480,42 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# ── Unity ────────────────────────────────────────────────────────────────────
+/client/[Ll]ibrary/
+/client/[Tt]emp/
+/client/[Oo]bj/
+/client/[Bb]uild/
+/client/[Bb]uilds/
+/client/[Ll]ogs/
+/client/[Mm]em[Pp]rofiler/
+/client/[Uu]ser[Ss]ettings/
+/client/*.pidb.meta
+/client/*.pdb.meta
+/client/*.mdb.meta
+/client/sysinfo.info
+/client/crashlytics-build.properties
+/client/ExportedObj/
+/client/.consulo/
+/client/*.csproj
+/client/*.unityproj
+/client/*.sln
+/client/*.suo
+/client/*.tmp
+/client/*.user
+/client/*.userprefs
+/client/*.pidb
+/client/*.booproj
+/client/*.svd
+/client/*.pdb
+/client/*.opendb
+/client/*.VC.db
+/client/Assets/AssetStoreTools*
+/client/[Aa]ssets/[Tt]extMesh[Pp]ro/
+/client/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/client/[Aa]ssets/[Ss]treamingAssets/aa/
+
+# ── Rust / Cargo ─────────────────────────────────────────────────────────────
+/server/target/
+/server/**/*.rs.bk
+# Cargo.lock is intentionally committed — this is an application, not a library

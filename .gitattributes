@@ -1,0 +1,62 @@
+# ── Line endings ─────────────────────────────────────────────────────────────
+# Normalise all text files to LF in the repo; checkout as native on each OS
+* text=auto eol=lf
+
+# Force these to always be LF (even on Windows)
+*.cs    text eol=lf
+*.rs    text eol=lf
+*.toml  text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.shader text eol=lf
+*.cginc  text eol=lf
+*.hlsl   text eol=lf
+*.glsl   text eol=lf
+
+# Unity-specific text files
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf
+*.mat       text eol=lf
+*.anim      text eol=lf
+*.controller text eol=lf
+*.overrideController text eol=lf
+*.physicMaterial     text eol=lf
+*.physicsMaterial2D  text eol=lf
+
+# ── Binary files (no diff/merge, store as-is) ────────────────────────────────
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.bmp   binary
+*.tga   binary
+*.tif   binary
+*.tiff  binary
+*.psd   binary
+*.pdf   binary
+
+# Audio
+*.mp3   binary
+*.ogg   binary
+*.wav   binary
+*.aif   binary
+*.aiff  binary
+
+# 3D / Animation
+*.fbx   binary
+*.blend binary
+*.obj   binary
+*.dae   binary
+
+# Compiled / packed
+*.dll   binary
+*.so    binary
+*.a     binary
+*.dylib binary
+*.exe   binary
+*.apk   binary
+*.unitypackage binary

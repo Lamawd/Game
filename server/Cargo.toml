@@ -1,0 +1,37 @@
+[package]
+name = "mixi-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mixi-server"
+path = "src/main.rs"
+
+[dependencies]
+# Web framework
+axum = { version = "0.7.5", features = ["ws"] }
+tokio = { version = "1.38.0", features = ["full"] }
+tower = { version = "0.4.13" }
+tower-http = { version = "0.5.2", features = ["cors", "trace"] }
+
+# Serialization
+serde = { version = "1.0.203", features = ["derive"] }
+serde_json = { version = "1.0.117" }
+
+# Logging
+tracing = { version = "0.1.40" }
+tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+
+# IDs and time
+uuid = { version = "1.8.0", features = ["v4", "serde"] }
+chrono = { version = "0.4.38", features = ["serde"] }
+
+# Async utils
+futures = { version = "0.3.30" }
+dashmap = { version = "5.5.3" }
+
+# RNG
+rand = { version = "0.8.5" }
+
+[dev-dependencies]
+tokio-test = "0.4.4"
