@@ -1,3 +1,5 @@
+pub mod bot;
 pub mod combat;
-pub mod shop;
+pub mod game_loop;
 pub mod round;
+pub mod shop;

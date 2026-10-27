@@ -1,0 +1,198 @@
+﻿Tài Liệu Thiết Kế Chi Tiết Hệ Thống Game
+I. TỘC (ORIGINS)
+1. Tổ đội 97 (Nhism, Levi, MeoU)
+* (2): Hồi 3 năng lượng mỗi giây.
+* (3): Hồi 5 năng lượng mỗi giây và nhận 15% Hút máu toàn phần.
+2. Bò “Húc” (Fat, FunkyM, Rambo, Mimosa, Boongminz)
+* (2): Khi máu lần đầu tụt xuống dưới 50%, hất tung kẻ địch lân cận trong 1 giây và hồi lại 15% máu tối đa.
+* (4): Hất tung trong 1.5 giây, hồi lại 25% máu tối đa và tăng 30% Tốc độ đánh phần còn lại của giao tranh.
+* (6) (Yêu cầu 1 Ấn) : Khi bắt đầu giao tranh, toàn bộ tướng Bò Húc lao lên hất tung tất cả kẻ địch trên đường đi trong 2 giây. Hồi lại 50% máu tối đa khi dưới 50% máu và tăng 80% Tốc độ đánh.
+3. Tổ đội lừa đảo (Độ Mixi, Lê Khôi, QNT, Nhạc)
+* (2): Toàn đội tăng 5% sát thương. Khi một tướng Lừa đảo hạ gục địch, có 10% tỉ lệ rớt 1 vàng.
+* (3): Toàn đội tăng 10% sát thương. Tỉ lệ rớt vàng tăng lên 15%.
+* (4): Toàn đội tăng 15% sát thương. Tỉ lệ rớt vàng 25%, và cứ mỗi 6 mạng hạ gục (tích lũy qua các vòng) sẽ rớt một "Hộp quà giả" gây choáng 1.5 giây cho kẻ địch dẫm phải.
+* (6) (Yêu cầu 2 Ấn) : Toàn đội tăng 40% sát thương. Tỉ lệ rớt vàng 40%. Hộp quà giả nâng cấp thành "Bom đa cấp", nổ diện rộng gây choáng 2 giây và có tỉ lệ rớt ra Mảnh trang bị.
+4. Nổ xịt (Jikey, MeoU, Pino)
+* (2): Khi chết, để lại bom nổ sau 1.5 giây gây 120 sát thương phép (phạm vi 1 ô). Có 25% tỉ lệ bom "xịt", không nổ mà tạo khói làm mù địch (giảm 30% tỉ lệ đánh trúng) trong 2.5 giây.
+* (4): Bom nổ gây 250 sát thương phép. Nếu xịt, khói làm mù và giảm 20% Tốc độ đánh địch trong 3 giây.
+5. Máy nói (Dev, Lê Khôi, Mimosa)
+* (2): Kẻ địch đứng trong phạm vi 2 ô bị giảm 15% Giáp và Kháng phép.
+* (3): Giảm 25% Giáp và Kháng phép. Kỹ năng đầu tiên của kẻ địch lân cận sẽ bị tiêu hao thêm 20% năng lượng.
+6. Bản ngã (Pino, Snake, Levi,FunkyM)
+* (2): Bắt đầu giao tranh nhận lá chắn bằng 10% máu tối đa. Mỗi khi tự tay hạ gục 1 kẻ địch, tướng Bản ngã tăng vĩnh viễn 1% Sát thương (cộng dồn qua mọi vòng đấu).
+* (4): Lá chắn bằng 15% máu tối đa. Tăng vĩnh viễn 2% Sát thương cho mỗi mạng hạ gục.
+7. Nóc nhà (Trang Mixi, Thanh Chin, Hà Beso, Linda Tạ, Trân Mèo)
+* Cơ chế nền tảng (Quyền Lực Nóc Nhà): Bắt đầu giao tranh, tiếng quát của hội Nóc Nhà khiến các tướng địch ngẫu nhiên bị Cấm đánh (Disarm) và giảm Giáp/Kháng phép trong 5 giây đầu tiên.
+* (2): 1 kẻ địch bị Cấm đánh 1 giây và giảm 10% Giáp/Kháng phép.
+* (4): 2 kẻ địch bị Cấm đánh 1.5 giây và giảm 15% Giáp/Kháng phép.
+* (6) (Tối thượng): 4 kẻ địch bị Cấm đánh 2 giây và giảm 30% Giáp/Kháng phép.
+* Cơ chế Đặc quyền: "Luật Hôn Nhân" (Chỉ số đã cân bằng)
+* Trang Mixi ↔ Độ Mixi:
+* Cùng phe: Độ Mixi được tăng 15% Sát thương Vật lý (SMCK).
+* Khác phe: Độ Mixi bị giảm 15% SMCK và đánh mất 10% Tốc độ đánh.
+* Thanh Chin ↔ Lê Khôi:
+* Cùng phe: Lê Khôi nhận 20 Sức mạnh Phép thuật (SMPT) và hồi 5 Năng lượng sau mỗi lần tung chiêu.
+* Khác phe: Lê Khôi bị trì hoãn tung chiêu (Năng lượng khởi điểm bắt đầu ở mức -15).
+* Lil Chi ↔ Snake:
+* Cùng phe: Snake được tăng 15% Tỉ lệ Chí mạng.
+* Khác phe: Snake bị giảm 20% Tỉ lệ Né tránh.
+* Trân Mèo ↔ Rambo:
+* Cùng phe: Rambo được cộng thêm 250 Máu tối đa.
+* Khác phe: Rambo bị giảm 30% hiệu quả từ mọi nguồn hồi máu.
+* Linda Tạ ↔ Pino:
+* Cùng phe: Pino nhận 15% Tốc độ đánh.
+* Khác phe: Pino bị giảm 15% Tốc độ đánh.
+* Hà Beso ↔ FunkyM:
+* Cùng phe: FunkyM nhận 25 Giáp và 25 Kháng phép.
+* Khác phe: FunkyM bị giảm 20% Giáp và Kháng phép.
+8. 500 Bros (BOMMAN, Dũng Kajima, Hữu Nghĩa, Leopard, Thế Anh 96)
+* (2): Nhận 4% Tốc độ đánh và hồi 2 Năng lượng.
+* (4): Nhận 8% Tốc độ đánh và hồi 4 Năng lượng.
+* (6) (Yêu cầu 1 Ấn 500Bros) : Nhận 12% Tốc độ đánh và hồi 8 Năng lượng. Ngoài ra, các tướng 500Bros nhận được một lớp lá chắn tương đương 15% Máu tối đa trong 5 giây đầu giao tranh.
+II. HỆ (CLASSES)
+1. Fap sư
+* (2): Toàn đội tăng 10 Sát thương phép (SMPT).
+* (4): Toàn đội tăng 25 SMPT.
+* (6): Toàn đội tăng 45 SMPT và kỹ năng của các Fap sư có thể gây sát thương chí mạng (với tỉ lệ chí mạng mặc định là 20%, tương đương với lượng tỉ lệ chí mạng cơ bản của tướng, cần ghép thêm đồ để tối ưu).
+2. Chiến sĩ
+* (2): Các Chiến sĩ tăng 20 Giáp.
+* (4): Tăng 45 Giáp.
+* (6): Tăng 80 Giáp và phản lại 15% sát thương vật lý gánh chịu (tính sau khi đã giảm trừ qua Giáp).
+3. Chất thép
+* (2): Các tướng Chất thép tăng 100 Máu tối đa.
+* (4): Tăng 250 Máu tối đa và tự động hồi 1% Máu mỗi giây.
+* (6): Tăng 500 Máu tối đa và tự động hồi 2.5% Máu mỗi giây.
+4. Tay to
+* (2): Các tướng Tay to tăng 10% Sát thương vật lý (SMCK).
+* (4): Tăng 15% SMCK.
+* (6): Tăng 30% SMCK và mỗi đòn đánh thứ 5 gây thêm sát thương chuẩn bằng 0.5% máu tối đa của địch.
+5. Đá stream
+* (2): Các tướng Đá stream tăng 5% Tốc độ đánh.
+* (4): Tăng 15% Tốc độ đánh.
+* (6): Tăng 25% Tốc độ đánh và mọi đòn đánh của họ không thể bị né tránh.
+III. LÕI CÔNG NGHỆ (AUGMENTS)
+1. NHÓM KINH TẾ & ROLL (Kinh Tài & Cửa Hàng)
+Lõi Bạc (Tier 1)
+* Voucher Freeship: Ở mỗi đầu vòng đấu, bạn nhận được 1 lượt Roll cửa hàng hoàn toàn miễn phí.
+* Bú Tài Trợ I: Nhận ngay 5 vàng. Mỗi khi nâng cấp thành công một tướng lên 2 sao, nhận thêm 1 vàng.
+* Vua Content: Nếu chiến thắng mà bàn cờ chỉ còn đúng 1 tướng phe bạn sống sót, nhận 5 vàng và 1 mảnh trang bị (tối đa 3 lần mỗi trận).
+* Gian Thương: Bán tướng hoàn lại 100% giá trị và cộng thêm 1 vàng, nhưng Roll tốn 3 vàng thay vì 2 vàng trong 3 vòng đầu sau khi chọn lõi.
+Lõi Vàng (Tier 2)
+* Thánh Săn Sale: Mỗi khi bạn mất 2 vàng để Roll, có 30% cơ hội lượt Roll tiếp theo sẽ được miễn phí.
+* Bú Tài Trợ II: Nhận ngay 10 vàng. Mỗi khi nâng cấp thành công một tướng lên 2 sao, nhận thêm 2 vàng.
+* Gian Thương Cấp Thấp: Tướng 1 Vàng và 2 Vàng xuất hiện trong cửa hàng luôn mặc định ở dạng 2 sao (giá mua bằng tổng tiền 3 con 1 sao), giúp dễ cày 3 sao.
+Lõi Kim Cương (Tier 3)
+* Bú Tài Trợ III: Nhận ngay 20 vàng. Mỗi khi nâng cấp thành công một tướng lên 2 sao, nhận thêm 4 vàng.
+* Nhân Phẩm Bùng Nổ: Mỗi khi mất tiền để Roll, có 50% cơ hội lượt Roll tiếp theo sẽ được miễn phí.
+* Chạy Deadline: Nhận ngay 8 Vàng. Ngay khi chọn lõi này, toàn bộ các lượt Roll của bạn trong vòng đấu hiện tại đều hoàn toàn miễn phí (phải thao tác tay cực nhanh).
+* Nổ Donate: Khi máu Linh thú tụt xuống dưới 40, lập tức nhận 30 vàng và 1 trang bị hoàn chỉnh ngẫu nhiên.
+2. NHÓM KINH NGHIỆM (Chạy Cấp - Fast 8/9)
+Lõi Bạc (Tier 1)
+* Bàn Làm Việc Trống I: Cuối mỗi vòng đấu, nếu hàng chờ tướng của bạn hoàn toàn TRỐNG, tự động nhận được 2 điểm Kinh nghiệm.
+Lõi Vàng (Tier 2)
+* Bàn Làm Việc Trống II: Cuối mỗi vòng đấu, nếu hàng chờ tướng của bạn hoàn toàn TRỐNG, tự động nhận được 3 điểm Kinh nghiệm.
+* Sưu Tầm Đồ Chơi: Cuối mỗi vòng đấu, nếu hàng chờ tướng của bạn ĐẦY ẮP (không còn ô trống), tự động nhận được 3 điểm Kinh nghiệm.
+* Cú Đêm Luyện Công: Giới hạn cấp độ tối đa tăng lên Cấp 10. Mỗi khi bạn dùng tiền mua Kinh nghiệm, bạn được nhận thêm 2 điểm Kinh nghiệm.
+Lõi Kim Cương (Tier 3)
+* Được Donate Đột Xuất: Nhận ngay lập tức 16 điểm Kinh nghiệm và 15 Vàng.
+3. NHÓM TỘC / HỆ ĐẶC QUYỀN (Buff riên cho Hệ)
+Lõi Bạc (Tier 1)
+* Nhả Độc (Luồn Lách): Nhận 1 Snake. Kẻ địch bị Snake đánh trúng chịu hiệu ứng Vết thương sâu (giảm 50% hồi phục) trong 3 giây.
+* Tam Thái Tử (Bò Húc/97): Nhận 1 Rambo, 1 Dev, 1 Nhism (1 sao). Khi cả ba cùng trên sân, họ chia sẻ 10% lượng máu cho nhau và nhận thêm 25% mọi chỉ số phòng thủ.
+* Song Long Hạ Thổ: Nhận 1 Pino và 1 Snake (1 sao). Mỗi đòn đánh thứ 3 của hai tướng này sẽ hất tung mục tiêu trong 1 giây và gây thêm 15% sát thương vật lý.
+Lõi Vàng (Tier 2)
+* Chiến trường ăn nhậu (Bò Húc): Tướng Bò “Húc” trên sân hồi 20% Máu tối đa khi hạ gục địch, nhưng Tốc độ di chuyển giảm 15%. Nhận 1 Rambo và 1 FunkyM (1 sao).
+* Thánh Phán (Fap sư): Kỹ năng của Fap sư có 20% tỷ lệ gây sát thương chuẩn gấp đôi và cấm đánh mục tiêu trong 2 giây.
+* Gánh Tạ (Tay to): Tướng Tay to được tăng 15% Sát thương vật lý và 10% Tốc độ đánh tương ứng với mỗi tướng đồng minh đã nằm xuống.
+* Mồm không hồi chiêu (Truyền thông / Máy nói): Kẻ địch đứng trong phạm vi 2 ô quanh Máy nói bị giảm 30% năng lượng nhận được từ mọi nguồn.
+* Stream 2 màn (Đá stream): Tướng Đá stream nhảy ra sau lưng địch sẽ đánh cắp 40% năng lượng tối đa của mục tiêu đầu tiên chạm trán.
+* Bom Nổ Chậm (Nổ xịt): Quả bom của tướng Nổ xịt sẽ phát nổ ngay lập tức khi họ nằm xuống (không cần chờ 1.5 giây) và tỉ lệ bom bị "xịt" giảm xuống chỉ còn 5%.
+Lõi Kim Cương (Tier 3)
+* Dự án “ma” (Tổ đội Lừa đảo): Nhận 1 Độ Mixi. Đội hình "Tổ đội lừa đảo" có 10% cơ hội "hack" tạm 1 trang bị ngẫu nhiên của địch trong suốt giao tranh.
+* Gói tân thủ (Luồn lách / 97): Nhận 1 Levi. Levi được miễn nhiễm khống chế trong 8 giây đầu; mạng hạ gục đầu tiên của Levi trong mỗi vòng lập tức rớt ra 2 vàng.
+4. NHÓM TRANG BỊ & GIAO TRANH TỔNG
+Lõi Bạc (Tier 1)
+* Tổng Kho An Liễng I: Nhận 1 mảnh trang bị ngẫu nhiên. Tướng cầm trang bị nhận thêm 80 Máu và 8 Giáp/Kháng phép.
+* Dân Chơi Custom Gear I: Các tướng phe bạn cầm ít nhất 1 mảnh đồ nhận thêm 150 Máu tối đa và 10% Sát thương.
+* Tự Kỷ Góc Phòng I: Bắt đầu giao tranh, các tướng phe bạn đứng cô lập (không cạnh ai) nhận Lá Chắn bằng 25% máu tối đa trong 10 giây.
+* Check Mic (Alo Alo): Bắt đầu giao tranh, tiếng test mic khiến toàn bộ địch giảm 30% Kháng phép và hoảng loạn trong 1.5 giây.
+* Gáy Sớm I: 10 giây đầu tăng 25% Sát thương và Tốc độ đánh, sau đó toàn đội bị choáng 1 giây.
+Lõi Vàng (Tier 2)
+* Tổng Kho An Liễng II: Nhận 1 Đe Rèn Trang Bị (chọn 1 trong 3 đồ lớn). Tướng mang đồ nhận thêm 150 Máu và 15 Giáp/Kháng phép.
+* Bom Hàng (Pandora): Nhận 1 trang bị thành phẩm. Đầu mỗi vòng, mọi trang bị đang chờ trên ghế dự bị của bạn sẽ tự động "biến ảo" thành món đồ ngẫu nhiên khác.
+* Dân Chơi Custom Gear II: Tướng cầm đồ nhận thêm 250 Máu tối đa và 15% Sát thương.
+* Tự Kỷ Góc Phòng II: Tướng đứng cô lập nhận Lá Chắn bằng 35% máu tối đa trong 10 giây.
+* Mắt Diều Hâu: Tướng phe bạn nhận thêm 1 ô Tầm Đánh. Tướng đánh xa xếp hàng dưới cùng tăng 15% Tốc độ đánh.
+* Check Var: Khi đồng minh nằm xuống, kẻ thù kết liễu bị lộ diện, nhận khiêu khích từ toàn phe ta và chịu thêm 30% sát thương.
+* Đập Hộp (Unboxing): Sau mỗi 4 vòng đấu PvP, nhận một hộp chứa ngẫu nhiên 5 vàng, 1 mảnh trang bị, hoặc 1 tướng 4 tiền.
+* Gáy Sớm II: 10 giây đầu tăng 50% Sát thương và Tốc độ đánh, sau đó bị choáng 1.5 giây và giảm 20% Giáp/Kháng phép.
+Lõi Kim Cương (Tier 3)
+* Tổng Kho An Liễng III: Nhận 1 Đe Rèn Đồ Ánh Sáng (đồ cực mạnh). Tướng mang đồ nhận thêm 300 Máu và 30 Giáp/Kháng phép.
+* Dân Chơi Custom Gear III: Tướng cầm đồ nhận thêm 350 Máu tối đa và 25% Sát thương.
+* Mày bị ban: Tướng địch có giá tiền cao nhất (hoặc mang nhiều đồ nhất) bốc hơi khỏi bàn cờ, sau 12 giây mới rơi lại xuống sân với 50% máu.
+* Mạng “n” chữ (Giật Lag): Tại giây thứ 5 của giao tranh, toàn bộ tướng địch đứng hình (choáng) trong 2.5 giây.
+* Văn mẫu xin off: Đầu vòng đấu hiện nút "Off Stream". Bấm để tự xử thua nhưng nhận ngay 15 vàng; nếu không bấm, toàn đội tăng 10o% sát thương trong trận đấu.
+* Gáy Sớm III: 10 giây đầu tăng 80% Sát thương và Tốc độ đánh, sau đó toàn đội phe bạn bị choáng tới 2.5 giây.
+IV. HỆ THỐNG TRANG BỊ
+1. Mảnh Trang Bị Cơ Bản
+STT,Tên Mảnh Trang Bị,Chỉ Số Cơ Bản
+1,Bàn Phím Cơ,+10 SMCK
+2,Chuột Mắt Đọc Xịn,+10% Tốc độ đánh
+3,Micro Cổ Ngỗng,+10 SMPT
+4,Lon Nước Tăng Lực,+15 Năng lượng
+5,Áo Ba Lỗ Đen,+20 Giáp
+6,Tai Nghe Cách Âm,+20 Kháng phép
+7,Thùng Mì Hảo Hảo,+150 Máu
+8,Kính Râm Hàng Hiệu,+20% Tỉ lệ chí mạng
+9,Nút Vàng YouTube,Công thức ghép Ấn Tộc
+10,Nút Bạc YouTube,Công thức ghép Ấn Hệ
+2. Trang Bị Hoàn Chỉnh
+Tên Trang Bị,Công Thức Ghép,Hiệu Ứng Chi Tiết
+Bàn Phím Đập Phá,Phím + Phím,Cộng dồn lượng lớn SMCK sau mỗi điểm hạ gục.
+Loa Kẹo Kéo Phường,Micro + Micro,Khuếch đại 50% tổng SMPT.
+Thùng Redbull Khổng Lồ,Nước + Nước,Hồi 10 Năng lượng sau mỗi lần tung chiêu.
+Bụng Bia Kháng Cự,Áo Ba Lỗ + Mì,"Thiêu đốt kẻ địch xung quanh, gây sát thương chuẩn và giảm hồi máu."
+Kính Lọc Nhân Phẩm,Kính Râm + Phím,Tướng sở hữu chắc chắn gây sát thương chí mạng.
+Cam Bóp Mặt,Micro + Mì,Kỹ năng gây Vết Thương Sâu và sát thương chuẩn theo % máu.
+Ghế Công Thái Học,Áo Ba Lỗ + Micro,Tạo khiên chắn cho các đồng minh xếp cùng hàng ngang.
+Bàn Di Chuột Siêu Tốc,Chuột + Micro,"Mỗi đòn đánh tăng 5% Tốc độ đánh, cộng dồn vô hạn."
+3. Ghép Ấn Tộc (Nút Vàng YouTube + Mảnh)
+Thành Phần Ghép,Kết Quả Trang Bị
+Nút Vàng + Bàn Phím Cơ,Ấn Tổ đội 97
+Nút Vàng + Thùng Mì Hảo Hảo,"Ấn Bò ""Húc"""
+Nút Vàng + Micro Cổ Ngỗng,Ấn Máy Nói
+Nút Vàng + Kính Râm Hàng Hiệu,Ấn Tổ đội lừa đảo
+Nút Vàng + Lon Nước Tăng Lực,Ấn Tổ độc
+Nút Vàng + Chuột Mắt Đọc Xịn,Ấn Bản Ngã
+Nút Vàng + Áo Ba Lỗ Đen,Ấn Nổ Xịt
+Nút Vàng + Nút Vàng,Vương Miện Refund (+1 slot tướng)
+4. Ghép Ấn Hệ (Nút Bạc YouTube + Mảnh)
+Thành Phần Ghép,Kết Quả Trang Bị
+Nút Bạc + Micro Cổ Ngỗng,Ấn Fap sư
+Nút Bạc + Áo Ba Lỗ Đen,Ấn Chiến sĩ
+Nút Bạc + Thùng Mì Hảo Hảo,Ấn Chất thép
+Nút Bạc + Bàn Phím Cơ,Ấn Tay to
+Nút Bạc + Chuột Mắt Đọc Xịn,Ấn Đá stream
+Nút Bạc + Nút Bạc,Cúp Vô Địch Ao Làng (+1 slot tướng)
+V. DANH SÁCH TƯỚNG (CHAMPIONS) MÙA 1 - TỔNG HỢP
+Bậc Giá,Số lượng,Danh Sách Tướng
+1 Vàng,9,"Jikey, Bongminz, Dev, Linda Tạ, Lil Chi, Lee Harri, Hữu Nghĩa, Vũ Mino, Leopard"
+2 Vàng,12,"MeoU, FunkyM, Quang Volka, FAT, Rambo, Thanh Chin, Trân Mèo, Huy HD, Tuyền Văn Hóa, Bụt (Duy Nhỏ), ĐạtKa, Huy Huế"
+3 Vàng,9,"Pino, Nhism, QNT, Nhạc Nguyễn, Snake, Lê Khôi, Hà Beso, Masew, Thế Anh 96"
+4 Vàng,6,"DjChip, Trang Mixi, Thầy Giáo Ba, Cris Devil Gamer, Dũng Kajima, Mimosa"
+5 Vàng,6,"Độ Mixi, PewPew, Xemesis, Bomman, SOFM, Levi"
+VII. BẢNG PHÂN LOẠI TẦM ĐÁNH & CƠ CHẾ SÁT THƯƠNG
+I. ĐỘI HÌNH ĐÁNH GẦN (CẬN CHIẾN)
+Cơ Chế Sát Thương (Scaling),Vai Trò Lối Chơi (TFT),Danh Sách Tướng
+"Damage Phép + Máu (Đánh tay yếu, dùng Máu tạo khiên/nổ phép)",Đấu Sĩ Phép / Hấp Huyết,"Mimosa, Rambo, Jikey, Thanh Chin, Dev, Aben (Nhân cách AP của Snake)"
+"Damage Vật Lý + Máu (Máu càng nhiều đánh càng đau, càn lướt)",Đấu Sĩ Vật Lý (Bruiser),"FAT, Quang Volka, Bụt (Duy Nhỏ), Hữu Nghĩa, Hà Beso"
+"Damage = Giáp + KP + Máu (Thuần chống chịu, phản sát thương)",Siêu Tanker (Warden),"Xemesis, FunkyM, Huy HD"
+Damage = Giáp + KP + Dmg Phép (Tanker nhưng nổ sát thương phép diện rộng),Tiên Phong Phép,"DjChip, Dũng Kajima, Trân Mèo"
+"Damage = Giáp + KP + Dmg Vật Lý (Tanker đập tay cực đau, phá giáp)",Tiên Phong Vật Lý,"Bomman, PewPew, MeoU, Leopard"
+"Damage Vật Lý Thuần (Đánh nhanh diệt gọn, chí mạng)",Sát Thủ / Kiếm Khách,"SOFM, Lee Harri, Snake (Dạng AD mặc định), Levi (Dạng AD mặc định)"
+Damage Phép Thuần (Cận Chiến) (Lao vào dồn sát thương phép cực mạnh rồi lùi),Sát Thủ Phép,Khó Chánh (Nhân cách AP của Levi)
+II. ĐỘI HÌNH ĐÁNH XA (TẦM XA)
+Cơ Chế Sát Thương (Scaling),Vai Trò Lối Chơi (TFT),Danh Sách Tướng
+"Damage Vật Lý Thuần (Xạ thủ bắn liên tục, tốc đánh cao)",Xạ Thủ (Marksman),"Nhism, Huy Huế, Bongminz, Vũ Mino, Thế Anh 96, Thầy Giáo Ba, Độ Mixi, Pino (Dạng AD mặc định)"
+"Damage Phép Thuần (Tung chiêu diện rộng, dồn sát thương)",Pháp Sư (Mage),"Masew, Lê Khôi, Nhạc Nguyễn, QNT, Linda Tạ, Lil Chi, ĐạtKa, Thầy Onip (Nhân cách AP của Pino)"
+Damage Vật Lý + Phép (Hỗn hợp) (Đánh tay vật lý nhưng chiêu nổ hiệu ứng phép),Xạ Thủ Phép / Hỗ Trợ,"Cris Devil Gamer, Tuyền Văn Hóa, Trang Mixi"

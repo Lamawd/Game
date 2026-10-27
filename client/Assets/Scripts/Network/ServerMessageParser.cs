@@ -13,6 +13,7 @@ public static class ServerMessageParser
             "connected"      => JsonUtility.FromJson<ConnectedMessage>(json),
             "game_state"     => JsonUtility.FromJson<GameStateMessage>(json),
             "shop_update"    => JsonUtility.FromJson<ShopUpdateMessage>(json),
+            "board_state"    => JsonUtility.FromJson<BoardStateMessage>(json),
             "combat_result"  => JsonUtility.FromJson<CombatResultMessage>(json),
             "player_update"  => JsonUtility.FromJson<PlayerUpdateMessage>(json),
             "error"          => JsonUtility.FromJson<ErrorMessage>(json),

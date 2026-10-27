@@ -83,7 +83,22 @@ public class ShopUpdateMessage : ServerMessage
 }
 
 [Serializable]
-public class CombatResultMessage : ServerMessage
+public class BoardStateMessage : ServerMessage
+{
+    public string player_id;
+    /// Serialized as Dictionary — Unity JsonUtility không support Dictionary,
+    /// nên server gửi dưới dạng array của BoardCell để dễ parse.
+    public BoardCell[] placed;
+    public UnitDto[] bench;
+    public int placed_count;
+}
+
+[Serializable]
+public class BoardCell
+{
+    public string position; // "col,row"
+    public UnitDto unit;
+}
 {
     public string winner_player_id; // null = draw
     public int damage_dealt;

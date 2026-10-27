@@ -50,4 +50,10 @@ impl LobbyManager {
     pub fn remove(&self, lobby_id: Uuid) {
         self.lobbies.remove(&lobby_id);
     }
+
+    pub fn set_status(&self, lobby_id: Uuid, status: crate::models::lobby::LobbyStatus) {
+        if let Some(mut lobby) = self.lobbies.get_mut(&lobby_id) {
+            lobby.status = status;
+        }
+    }
 }

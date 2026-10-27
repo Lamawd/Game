@@ -49,6 +49,24 @@ public class RestClient : MonoBehaviour
         StartCoroutine(Post($"/lobby/{lobbyId}/join", body, onSuccess, onError));
     }
 
+    /// <summary>
+    /// Điền bots vào slot còn trống và bắt đầu game loop.
+    /// Gọi khi muốn test: 1 người thật + bots.
+    /// </summary>
+    public void StartLobby(string lobbyId, System.Action<StartLobbyResponse> onSuccess, System.Action<string> onError)
+    {
+        StartCoroutine(Post($"/lobby/{lobbyId}/start", "{}", onSuccess, onError));
+    }
+
+    /// <summary>
+    /// Điền bots vào slot còn trống và bắt đầu game loop.
+    /// Gọi khi muốn test: 1 người thật + bots.
+    /// </summary>
+    public void StartLobby(string lobbyId, System.Action<StartLobbyResponse> onSuccess, System.Action<string> onError)
+    {
+        StartCoroutine(Post($"/lobby/{lobbyId}/start", "{}", onSuccess, onError));
+    }
+
     // ── Internal ─────────────────────────────────────────────────────────────
 
     private IEnumerator Post<T>(string path, string jsonBody, System.Action<T> onSuccess, System.Action<string> onError)
@@ -112,4 +130,13 @@ public class LobbyDto
     public int max_players;
     public string status;
     public int round;
+}
+
+[System.Serializable]
+public class StartLobbyResponse
+{
+    public string lobby_id;
+    public int human_count;
+    public int bot_count;
+    public string[] bot_names;
 }
